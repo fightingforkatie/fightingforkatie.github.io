@@ -26,104 +26,204 @@
         margin: 0px;
         padding: 0px;
       }
-      .titleHeader{
-        position: relative;
-        top: 0vw;
-        width: 100vw;
-        height: 9vw;
-        background-color: #FF9FE2;
-        z-index: 10;
+      @media screen and (max-width: 1100px){
+        .titleHeader{
+          position: relative;
+          top: 0vw;
+          width: 100vw;
+          height: 9vw;
+          background-color: #FF9FE2;
+          z-index: 10;
+        }
+        #donate{
+          position: relative;
+          width: 14vw;
+          margin-top: 1vw;
+          margin-left: 0vw;
+          z-index: 15;
+        }
+        #title{
+          position: absolute;
+          top: 0vw;
+          width: 100vw;
+          text-align: center;
+          color: white;
+          line-height: 1;
+          font-weight: bolder;
+          font-size:8vw;
+          z-index: 2;
+        }
+        .menu{
+          position:sticky;
+          top: -.25vw;
+          width: 100vw;
+          height: 6vw;
+          text-align: center;
+          background-color: #FF9FE2;
+          z-index: 10;
+        }
+        #menu{
+          position: sticky;
+          background-color: #FF9FE2;
+          color: white;
+          top: -.025vw;
+          font-size: 3vw;
+          font-weight: bold;
+          padding-left: 3vw;
+          padding-right: 3vw;
+          text-decoration: none;
+        }
+        #menu:hover{
+          background-color: white;
+          color: #FF9FE2;
+        }
+        #mainImage{
+          position: fixed;
+          top: 0vw;
+          margin-left: 30vw;
+          width: 70vw;
+          z-index: 1;
+        }
+        .sideBar{
+          position: relative;
+          background-color: white;
+          text-align: center;
+          color: #FF9FE2;
+          padding-top: 2vw;
+          width: 50vw;
+          height: 120vw;
+          z-index: 2;
+          opacity: .9;
+        }
+        #news{
+          font-size: 8vw;
+        }
+        #newsImage{
+          position: relative;
+          width: 48vw;
+          margin-left: 1vw;
+        }
+        #update{
+          font-size: 3vw;
+          color: black;
+          text-decoration: none;
+          font-weight: bold;
+          padding-bottom: 4vw;
+        }
+        .footer{
+          display: none;
+        }
+        #slogan{
+          position: fixed;
+          bottom: .25vw;
+          width: 100vw;
+          text-align: center;
+          color: white;
+          font-size:2vw;
+          font-weight: bolder;
+          z-index: 10;
+        }
       }
-      #donate{
-        position: relative;
-        width: 18vw;
-        margin-top: 1vw;
-        margin-left: 0vw;
-        z-index: 15;
-      }
-      #title{
-        position: absolute;
-        top: 0vw;
-        width: 100vw;
-        text-align: center;
-        color: white;
-        line-height: 1;
-        font-weight: bolder;
-        font-size:8vw;
-        z-index: 2;
-      }
-      .menu{
-        position:sticky;
-        top: -.25vw;
-        width: 100vw;
-        height: 3.75vw;
-        text-align: center;
-        background-color: #FF9FE2;
-        z-index: 10;
-      }
-      #menu{
-        position: sticky;
-        background-color: #FF9FE2;
-        color: white;
-        top: -.025vw;
-        font-size: 3vw;
-        font-weight: bold;
-        padding-left: 3vw;
-        padding-right: 3vw;
-        text-decoration: none;
-      }
-      #menu:hover{
-        background-color: white;
-        color: #FF9FE2;
-      }
-      #mainImage{
-        position: fixed;
-        top: 0vw;
-        margin-left: 30vw;
-        width: 70vw;
-        z-index: 1;
-      }
-      .sideBar{
-        position: relative;
-        background-color: white;
-        text-align: center;
-        color: #FF9FE2;
-        padding-top: 2vw;
-        width: 30vw;
-        z-index: 2;
-      }
-      #news{
-        font-size: 8vw;
-      }
-      #newsImage{
-        position: relative;
-        width: 28vw;
+      @media screen and (min-width: 1101px){
+        .titleHeader{
+          position: relative;
+          top: 0vw;
+          width: 100vw;
+          height: 9vw;
+          background-color: #FF9FE2;
+          z-index: 10;
+        }
+        #donate{
+          position: relative;
+          width: 18vw;
+          margin-top: 1vw;
+          margin-left: 0vw;
+          z-index: 15;
+        }
+        #title{
+          position: absolute;
+          top: 0vw;
+          width: 100vw;
+          text-align: center;
+          color: white;
+          line-height: 1;
+          font-weight: bolder;
+          font-size:8vw;
+          z-index: 2;
+        }
+        .menu{
+          position:sticky;
+          top: -.25vw;
+          width: 100vw;
+          height: 4vw;
+          text-align: center;
+          background-color: #FF9FE2;
+          z-index: 10;
+        }
+        #menu{
+          position: sticky;
+          background-color: #FF9FE2;
+          color: white;
+          top: -.025vw;
+          font-size: 3vw;
+          font-weight: bold;
+          padding-left: 3vw;
+          padding-right: 3vw;
+          text-decoration: none;
+        }
+        #menu:hover{
+          background-color: white;
+          color: #FF9FE2;
+        }
+        #mainImage{
+          position: fixed;
+          top: 0vw;
+          margin-left: 30vw;
+          width: 70vw;
+          z-index: 1;
+        }
+        .sideBar{
+          position: relative;
+          background-color: white;
+          text-align: center;
+          color: #FF9FE2;
+          padding-top: 2vw;
+          width: 30vw;
+          z-index: 2;
+        }
+        #news{
+          font-size: 8vw;
+        }
+        #newsImage{
+          position: relative;
+          width: 28vw;
 
-      }
-      #update{
-        font-size: 3vw;
-        color: black;
-        text-decoration: none;
-        font-weight: bold;
-        padding-bottom: 5vw;
-      }
-      .footer{
-        position: fixed;
-        bottom: 0px;
-        width: 100vw;
-        background-color: #FF9FE2;
-        height: 3vw;
-        z-index: 5;
-      }
-      #slogan{
-        position: fixed;
-        bottom: .25vw;
-        width: 100vw;
-        text-align: center;
-        color: white;
-        font-size:2vw;
-        font-weight: bolder;
-        z-index: 10;
+        }
+        #update{
+          font-size: 3vw;
+          color: black;
+          text-decoration: none;
+          font-weight: bold;
+          padding-bottom: 4vw;
+        }
+        .footer{
+          position: fixed;
+          bottom: 0px;
+          width: 100vw;
+          background-color: #FF9FE2;
+          height: 3vw;
+          z-index: 5;
+        }
+        #slogan{
+          position: fixed;
+          bottom: .25vw;
+          width: 100vw;
+          text-align: center;
+          color: white;
+          font-size:2vw;
+          font-weight: bolder;
+          z-index: 10;
+        }
       }
     </style>
   </head>
@@ -144,7 +244,7 @@
     <div class="sideBar">
       <h1 id="news">NEWS</h1>
       <a href="http://www.williamsonherald.com/news/article_5c0fcff6-9b52-11e8-8e54-2f748888d1bc.html" id="update" target="_blank"><img src="williamson.jpg" id="newsImage">Check out this article about Katie from the Williamson Herald.<br><br></a>
-      <p id="update">This area will continue to provide updates on what is happening with Katie.</p>
+      <p id="update">This will be the area where we can provide updates on her status</p>
     </div>
 
     <div class="footer">
