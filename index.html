@@ -1,8 +1,105 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
-<body>
-<h1>Fighting for Katie</h1>
-</body>
+  <head>
+    <title>Fighting For Katie</title>
+    <meta name="author" content="BradDavis">
+    <meta name="description" content="Fighting for Katie is an organization that is dedicated to beating cancer and to supporting research into finding a cure. This site is dedicated to Katie Shepherd and her inspiring fight to beat cancer.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FF9FE2">
+    <meta name="msapplication-navbutton-color" content="#FF9FE2">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FF9FE2">
+    <style name="AppTheme" parent="AppBaseTheme">
+	    <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+    		<item name="android:background">#FF9FE2</item>
+    		<item name="android:titleTextStyle">@style/AppTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.StatusBar.Title">
+    		<item name="android:textColor">#000000</item>
+    </style>
+
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
+      .titleHeader{
+        position: relative;
+        top: 0vw;
+        width: 100vw;
+        height: 9vw;
+        background-color: #FF9FE2;
+        z-index: 10;
+      }
+      #donate{
+        position: fixed;
+        width: 15vw;
+        margin-top: 1vw;
+        margin-left: 1vw;
+        z-index: 15;
+      }
+      #title{
+        position: relative;
+        top: 0vw;
+        width: 100vw;
+        text-align: center;
+        color: white;
+        line-height: 1;
+        font-size:8vw;
+        z-index: 2;
+      }
+      #mainImage{
+        position: fixed;
+        top: 0vw;
+        margin-left: 30vw;
+        width: 70vw;
+      }
+      .sideBar{
+        position: relative;
+        background-color: white;
+        text-align: center;
+        color: #FF9FE2;
+        padding-top: 5vw;
+        width: 30vw;
+        height: 100vw;
+        z-index: 2vw;
+      }
+      .footer{
+        position: fixed;
+        bottom: 0px;
+        background-color: #FF9FE2;
+        height: 3vw;
+        z-index: 10;
+      }
+      #slogan{
+        position: relative;
+        top: .5vw;
+        width: 100vw;
+        text-align: center;
+        color: white;
+        font-size:2vw;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="titleHeader">
+      <a href="https://www.gofundme.com/teamkatiefranklintn"><img src="paypalDonate.png" id="donate"></a>
+      <p id="title">Fighting for Katie</p>
+    </div>
+
+    <img src="katie.jpg" id="mainImage">
+
+    <div class="sideBar">
+      <h1>NEWS</h1>
+      <p>This will be the area where we can provide updates on her status</p>
+    </div>
+
+    <div class="footer">
+      <p id="slogan">Katie Will Beat Cancer And You Can Help</p>
+    </div>
+  </body>
 </html>
