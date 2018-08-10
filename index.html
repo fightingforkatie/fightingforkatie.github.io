@@ -8,6 +8,38 @@
     <meta name="theme-color" content="#FF9FE2">
     <meta name="msapplication-navbutton-color" content="#FF9FE2">
     <meta name="apple-mobile-web-app-status-bar-style" content="#FF9FE2">
+    <meta name="twitter:card" content="summary_large_image">
+  	<meta name="twitter:creator" content="@braddavistech">
+  	<meta name="twitter:title" content="Playtime Sports Games, LLC">
+  	<meta name="twitter:description" content="Fighting for Katie is an organization that is dedicated to beating cancer and to supporting research into finding a cure. This site is dedicated to Katie Shepherd and her inspiring fight to beat cancer.">
+  	<meta name="twitter:image" content="roundLogo512.jpg">
+  	<meta property="og:image" content="roundLogo512.jpg">
+  	<meta property="og:image:type" content="image/jpg">
+  	<meta property="og:image:width" content="512">
+  	<meta property="og:image:height" content="512">
+  	<meta property="og:image" content="roundLogo180.jpg">
+  	<meta property="og:image:type" content="image/jpg">
+  	<meta property="og:image:width" content="180">
+  	<meta property="og:image:height" content="180">
+    <link rel="apple-touch-icon" sized="24x24" href="roundLogo512.jpg" />
+  	<link rel="apple-touch-icon" sized="36x36" href="roundLogo24.jpg" />
+  	<link rel="apple-touch-icon" sized="40x40" href="roundLogo40.jpg" />
+  	<link rel="apple-touch-icon" sized="58x58" href="roundLogo58.jpg" />
+  	<link rel="apple-touch-icon" sized="50x50" href="roundLogo50.jpg" />
+  	<link rel="apple-touch-icon" sized="57x57" href="roundLogo57.jpg" />
+  	<link rel="apple-touch-icon" sized="72x72" href="roundLogo72.jpg" />
+  	<link rel="apple-touch-icon" sized="100x100" href="roundLogo100.jpg" />
+  	<link rel="apple-touch-icon" sized="114x114" href="roundLogo114.jpg" />
+  	<link rel="apple-touch-icon" sized="144x144" href="roundLogo144.jpg" />
+  	<link rel="apple-touch-icon" sized="180x180" href="roundLogo180.jpg" />
+  	<link rel="apple-touch-icon" sized="512x512" href="roundLogo512.jpg" />
+  	<link rel="icon" sized="36x36" href="roundLogo36.jpg" />
+  	<link rel="icon" sized="72x72" href="roundLogo72.jpg" />
+  	<link rel="icon" sized="96x96" href="roundLogo96.jpg" />
+  	<link rel="icon" sized="48x48" href="roundLogo48.jpg" />
+  	<link rel="icon" sized="144x144" href="roundLogo144.jpg" />
+  	<link rel="icon" sized="192x192" href="roundLogo192.jpg" />
+  	<link rel="icon" sized="512x512" href="roundLogo512.jpg" />
     <style name="AppTheme" parent="AppBaseTheme">
 	    <item name="android:actionBarStyle">@style/MyActionBar</item>
     </style>
@@ -33,14 +65,14 @@
           width: 100vw;
           height: 9vw;
           background-color: #FF9FE2;
-          z-index: 22;
+          z-index: 10;
         }
         #donate{
-          position: relative;
+          position: absolute;
           width: 16vw;
-          margin-top: 1vw;
-          margin-left: -.5vw;
-          z-index: 21;
+          top: 2.5vw;
+          left: 1vw;
+          z-index: 12;
         }
         #title{
           position: absolute;
@@ -57,10 +89,9 @@
           position:sticky;
           top: -.25vw;
           width: 100vw;
-          height: 5.2vw;
           text-align: center;
           background-color: #FF9FE2;
-          z-index: 17;
+          z-index: 11;
         }
         #menu{
           position: sticky;
@@ -68,6 +99,7 @@
           color: white;
           top: -.025vw;
           font-size: 3vw;
+          border-radius: 7vw;
           font-weight: bold;
           padding-left: 3vw;
           padding-right: 3vw;
@@ -79,7 +111,7 @@
         }
         #mainImage{
           position: fixed;
-          top: 4.75vw;
+          top: 3.2vw;
           margin-left: 35vw;
           width: 65vw;
           z-index: 1;
@@ -128,20 +160,20 @@
           font-weight: bold;
         }
         .logo{
-          position: relative;
+          position: absolute;
           background: white;
-          width: 12vw;
-          height: 13vw;
-          top: -8.5vw;
+          width: 10vw;
+          height: 11vw;
+          top: .75vw;
           margin-left: 86vw;
-          z-index: 21;
+          z-index: 12;
         }
         #logo{
-          position: relative;
-          width: 10vw;
+          position: absolute;
+          width: 8vw;
           top: 1vw;
           margin-left: 1vw;
-          z-index: 22;
+          z-index: 13;
         }
       }
       @media screen and (min-width: 1101px){
@@ -151,14 +183,14 @@
           width: 100vw;
           height: 9vw;
           background-color: #FF9FE2;
-          z-index: 22;
+          z-index: 10;
         }
         #donate{
-          position: relative;
+          position: absolute;
           width: 18vw;
-          margin-top: .5vw;
+          top: 2vw;
           margin-left: 0vw;
-          z-index: 21;
+          z-index: 12;
         }
         #title{
           position: absolute;
@@ -175,10 +207,9 @@
           position:sticky;
           top: -.25vw;
           width: 100vw;
-          height: 4vw;
           text-align: center;
           background-color: #FF9FE2;
-          z-index: 17;
+          z-index: 11;
         }
         #menu{
           position: sticky;
@@ -186,6 +217,7 @@
           color: white;
           top: -.025vw;
           font-size: 3vw;
+          border-radius: 7vw;
           font-weight: bold;
           padding-left: 3vw;
           padding-right: 3vw;
@@ -250,30 +282,32 @@
           font-weight: bold;
         }
         .logo{
-          position: relative;
+          position: absolute;
           background: white;
-          width: 11vw;
-          height: 12vw;
-          top: -9vw;
+          width: 10vw;
+          height: 11vw;
+          top: .5vw;
           margin-left: 86vw;
-          z-index: 21;
+          z-index: 12;
         }
         #logo{
-          position: relative;
-          width: 9vw;
+          position: absolute;
+          width: 8vw;
           top: 1vw;
           margin-left: 1vw;
-          z-index: 22;
+          z-index: 13;
         }
       }
     </style>
   </head>
   <body>
     <div class="titleHeader">
-      <a href="https://www.gofundme.com/teamkatiefranklintn"><img src="paypalDonate.png" id="donate"></a>
       <p id="title">Fighting for Katie</p>
-      <p class="logo"><img src="logo.jpg" id="logo"></p>
     </div>
+
+    <a href="https://www.gofundme.com/teamkatiefranklintn"><img src="paypalDonate.png" id="donate"></a>
+    <p class="logo"><img src="logo.jpg" id="logo"></p>
+
 
     <div class="menu">
       <a href="https://www.fightingforkatie.com/" id="menu">HOME</a>
@@ -288,8 +322,8 @@
       <h1 id="news">NEWS</h1>
 
       <p id="date"> August 9, 2018</p>
-      <p style="font-size: 2.5vw; color: black; font-weight: bold;">New Shirts For Sale</p>
-      <a href="mailto:mervyrn.shepherd1@gmail.com" id="update" target="_blank"><img src="tshirt.jpeg" id="newsImage">Click here to email us about ordering a shirt.<br><br></a>
+      <p style="font-size: 3vw; color: black; font-weight: bold;">New Shirts For Sale</p>
+      <a href="mailto:mervyrn.shepherd1@gmail.com" id="update" target="_blank"><img src="tshirt2.jpg" id="newsImage"><img src="tshirt.jpeg" id="newsImage">Click here to email us about ordering a shirt.<br><br></a>
 
       <p id="date"> August 8, 2018</p>
       <a href="http://www.williamsonherald.com/news/article_5c0fcff6-9b52-11e8-8e54-2f748888d1bc.html" id="update" target="_blank"><img src="williamson.jpg" id="newsImage">Check out this article about Katie from the Williamson Herald.<br><br></a>
