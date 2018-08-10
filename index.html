@@ -33,14 +33,14 @@
           width: 100vw;
           height: 9vw;
           background-color: #FF9FE2;
-          z-index: 10;
+          z-index: 22;
         }
         #donate{
           position: relative;
           width: 16vw;
-          margin-top: 4vw;
+          margin-top: 1vw;
           margin-left: -.5vw;
-          z-index: 15;
+          z-index: 21;
         }
         #title{
           position: absolute;
@@ -51,16 +51,16 @@
           line-height: 1;
           font-weight: bolder;
           font-size:8vw;
-          z-index: 2;
+          z-index: 16;
         }
         .menu{
           position:sticky;
           top: -.25vw;
           width: 100vw;
-          height: 6vw;
+          height: 5.2vw;
           text-align: center;
           background-color: #FF9FE2;
-          z-index: 10;
+          z-index: 17;
         }
         #menu{
           position: sticky;
@@ -79,9 +79,9 @@
         }
         #mainImage{
           position: fixed;
-          top: 5vw;
-          margin-left: 30vw;
-          width: 70vw;
+          top: 4.75vw;
+          margin-left: 35vw;
+          width: 65vw;
           z-index: 1;
         }
         .sideBar{
@@ -91,9 +91,7 @@
           color: #FF9FE2;
           padding-top: 2vw;
           width: 50vw;
-          height: 120vw;
           z-index: 2;
-          opacity: .9;
         }
         #news{
           font-size: 8vw;
@@ -123,6 +121,28 @@
           font-weight: bolder;
           z-index: 10;
         }
+        #date{
+          margin-top: 5vw;
+          color: black;
+          font-size: 3vw;
+          font-weight: bold;
+        }
+        .logo{
+          position: relative;
+          background: white;
+          width: 12vw;
+          height: 13vw;
+          top: -8.5vw;
+          margin-left: 86vw;
+          z-index: 21;
+        }
+        #logo{
+          position: relative;
+          width: 10vw;
+          top: 1vw;
+          margin-left: 1vw;
+          z-index: 22;
+        }
       }
       @media screen and (min-width: 1101px){
         .titleHeader{
@@ -131,14 +151,14 @@
           width: 100vw;
           height: 9vw;
           background-color: #FF9FE2;
-          z-index: 10;
+          z-index: 22;
         }
         #donate{
           position: relative;
           width: 18vw;
-          margin-top: 1vw;
+          margin-top: .5vw;
           margin-left: 0vw;
-          z-index: 15;
+          z-index: 21;
         }
         #title{
           position: absolute;
@@ -149,7 +169,7 @@
           line-height: 1;
           font-weight: bolder;
           font-size:8vw;
-          z-index: 2;
+          z-index: 16;
         }
         .menu{
           position:sticky;
@@ -158,7 +178,7 @@
           height: 4vw;
           text-align: center;
           background-color: #FF9FE2;
-          z-index: 10;
+          z-index: 17;
         }
         #menu{
           position: sticky;
@@ -197,10 +217,9 @@
         #newsImage{
           position: relative;
           width: 28vw;
-
         }
         #update{
-          font-size: 3vw;
+          font-size: 2vw;
           color: black;
           text-decoration: none;
           font-weight: bold;
@@ -224,6 +243,28 @@
           font-weight: bolder;
           z-index: 10;
         }
+        #date{
+          margin-top: 5vw;
+          color: black;
+          font-size: 2.5vw;
+          font-weight: bold;
+        }
+        .logo{
+          position: relative;
+          background: white;
+          width: 11vw;
+          height: 12vw;
+          top: -9vw;
+          margin-left: 86vw;
+          z-index: 21;
+        }
+        #logo{
+          position: relative;
+          width: 9vw;
+          top: 1vw;
+          margin-left: 1vw;
+          z-index: 22;
+        }
       }
     </style>
   </head>
@@ -231,6 +272,7 @@
     <div class="titleHeader">
       <a href="https://www.gofundme.com/teamkatiefranklintn"><img src="paypalDonate.png" id="donate"></a>
       <p id="title">Fighting for Katie</p>
+      <p class="logo"><img src="logo.jpg" id="logo"></p>
     </div>
 
     <div class="menu">
@@ -242,9 +284,17 @@
     <img src="katie.jpg" id="mainImage">
 
     <div class="sideBar">
+
       <h1 id="news">NEWS</h1>
+
+      <p id="date"> August 9, 2018</p>
+      <p style="font-size: 2.5vw; color: black; font-weight: bold;">New Shirts For Sale</p>
+      <a href="mailto:mervyrn.shepherd1@gmail.com" id="update" target="_blank"><img src="tshirt.jpeg" id="newsImage">Click here to email us about ordering a shirt.<br><br></a>
+
+      <p id="date"> August 8, 2018</p>
       <a href="http://www.williamsonherald.com/news/article_5c0fcff6-9b52-11e8-8e54-2f748888d1bc.html" id="update" target="_blank"><img src="williamson.jpg" id="newsImage">Check out this article about Katie from the Williamson Herald.<br><br></a>
-      <p id="update">This will be the area where we can provide updates on her status</p>
+
+
     </div>
 
     <div class="footer">
